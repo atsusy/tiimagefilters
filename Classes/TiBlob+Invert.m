@@ -1,0 +1,36 @@
+//
+//  TiBlob+Invert.m
+//  tiimagefilters
+//
+//  Created by KATAOKA,Atsushi on 11/06/28.
+//  Copyright 2011 MARSHMALLOW MACHINE. All rights reserved.
+//
+
+#import "TiBlob+Template.h"
+#import "TiBlob+Invert.h"
+
+@implementation TiBlob (TiBlob_Invert)
+- (id)invert:(id)arg
+{
+    FilterOperation op = ^(uint8_t *buf, size_t bpr, ARGBIndex argb, uint32_t w, uint32_t h)
+    {
+        NSLog(@"[DEBUG] invert opeartion called.");
+        for(int y = 0; y < h; y++){
+            for(int x = 0; x < w; x++){
+                uint8_t *pixel = buf + y * bpr + x * 4;
+                int16_t R, G, B;
+                
+                R = *(pixel + argb.r);
+                G = *(pixel + argb.g);
+                B = *(pixel + argb.b);
+                
+                *(pixel + argb.r) = 255 - R;
+                *(pixel + argb.g) = 255 - G;
+                *(pixel + argb.b) = 255 - B;
+            }
+        }
+    };
+    
+    return [self operate:op];        
+}
+@end

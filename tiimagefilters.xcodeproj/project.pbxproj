@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		24416B8111C4CA220047AFDD /* Build & Test */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */;
+			buildPhases = (
+				24416B8011C4CA220047AFDD /* ShellScript */,
+			);
+			dependencies = (
+				24416B8511C4CA280047AFDD /* PBXTargetDependency */,
+			);
+			name = "Build & Test";
+			productName = "Build & test";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		24DD6CF91134B3F500162E58 /* JpMsmcTiimagefiltersModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* JpMsmcTiimagefiltersModule.h */; };
+		24DD6CFA1134B3F500162E58 /* JpMsmcTiimagefiltersModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* JpMsmcTiimagefiltersModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.m */; };
+		314289B513C4021400E29616 /* TiBlob+Sobel.h in Headers */ = {isa = PBXBuildFile; fileRef = 314289B313C4021100E29616 /* TiBlob+Sobel.h */; };
+		314289B613C4021400E29616 /* TiBlob+Sobel.m in Sources */ = {isa = PBXBuildFile; fileRef = 314289B413C4021300E29616 /* TiBlob+Sobel.m */; };
+		3166245213C30ACC00904169 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = 3166244C13C30ACC00904169 /* UIImage+Alpha.h */; };
+		3166245313C30ACC00904169 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166244D13C30ACC00904169 /* UIImage+Alpha.m */; };
+		3166245413C30ACC00904169 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = 3166244E13C30ACC00904169 /* UIImage+Resize.h */; };
+		3166245513C30ACC00904169 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166244F13C30ACC00904169 /* UIImage+Resize.m */; };
+		3166245613C30ACC00904169 /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3166245013C30ACC00904169 /* UIImage+RoundedCorner.h */; };
+		3166245713C30ACC00904169 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 3166245113C30ACC00904169 /* UIImage+RoundedCorner.m */; };
+		3196DBD413C308B20009CAB9 /* TiBlob+Exposure.h in Headers */ = {isa = PBXBuildFile; fileRef = 3196DBD213C308B20009CAB9 /* TiBlob+Exposure.h */; };
+		3196DBD513C308B20009CAB9 /* TiBlob+Exposure.m in Sources */ = {isa = PBXBuildFile; fileRef = 3196DBD313C308B20009CAB9 /* TiBlob+Exposure.m */; };
+		31ECDA2313B857D300E7235A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31ECDA2213B857D300E7235A /* UIKit.framework */; };
+		31ECDA3613B86ECE00E7235A /* TiBlob+Template.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA3413B86ECE00E7235A /* TiBlob+Template.h */; };
+		31ECDA3713B86ECE00E7235A /* TiBlob+Template.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA3513B86ECE00E7235A /* TiBlob+Template.m */; };
+		31ECDA4613B879CB00E7235A /* TiBlob+Sepia.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA4413B879CA00E7235A /* TiBlob+Sepia.h */; };
+		31ECDA4713B879CB00E7235A /* TiBlob+Sepia.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA4513B879CA00E7235A /* TiBlob+Sepia.m */; };
+		31ECDA4B13B8843500E7235A /* TiBlob+Hue.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA4913B8843500E7235A /* TiBlob+Hue.h */; };
+		31ECDA4C13B8843500E7235A /* TiBlob+Hue.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA4A13B8843500E7235A /* TiBlob+Hue.m */; };
+		31ECDA4F13B956DB00E7235A /* TiBlob+Greyscale.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA4D13B956DB00E7235A /* TiBlob+Greyscale.h */; };
+		31ECDA5013B956DB00E7235A /* TiBlob+Greyscale.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA4E13B956DB00E7235A /* TiBlob+Greyscale.m */; };
+		31ECDA5913B9A62100E7235A /* TiBlob+Contrast.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA5713B9A62000E7235A /* TiBlob+Contrast.h */; };
+		31ECDA5A13B9A62100E7235A /* TiBlob+Contrast.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA5813B9A62000E7235A /* TiBlob+Contrast.m */; };
+		31ECDA5D13B9AAED00E7235A /* TiBlob+FillColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA5B13B9AAED00E7235A /* TiBlob+FillColor.h */; };
+		31ECDA5E13B9AAED00E7235A /* TiBlob+FillColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA5C13B9AAED00E7235A /* TiBlob+FillColor.m */; };
+		31ECDA6113B9AAFC00E7235A /* TiBlob+Brightness.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA5F13B9AAFB00E7235A /* TiBlob+Brightness.h */; };
+		31ECDA6213B9AAFC00E7235A /* TiBlob+Brightness.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA6013B9AAFC00E7235A /* TiBlob+Brightness.m */; };
+		31ECDA6513B9AB0E00E7235A /* TiBlob+Saturation.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA6313B9AB0D00E7235A /* TiBlob+Saturation.h */; };
+		31ECDA6613B9AB0E00E7235A /* TiBlob+Saturation.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA6413B9AB0E00E7235A /* TiBlob+Saturation.m */; };
+		31ECDA6913B9AB1D00E7235A /* TiBlob+Vibrance.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA6713B9AB1D00E7235A /* TiBlob+Vibrance.h */; };
+		31ECDA6A13B9AB1D00E7235A /* TiBlob+Vibrance.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA6813B9AB1D00E7235A /* TiBlob+Vibrance.m */; };
+		31ECDA6D13B9AB3500E7235A /* TiBlob+Colorize.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA6B13B9AB3400E7235A /* TiBlob+Colorize.h */; };
+		31ECDA6E13B9AB3500E7235A /* TiBlob+Colorize.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA6C13B9AB3400E7235A /* TiBlob+Colorize.m */; };
+		31ECDA7113B9AB4300E7235A /* TiBlob+Invert.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA6F13B9AB4300E7235A /* TiBlob+Invert.h */; };
+		31ECDA7213B9AB4300E7235A /* TiBlob+Invert.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA7013B9AB4300E7235A /* TiBlob+Invert.m */; };
+		31ECDA7513B9AB5D00E7235A /* TiBlob+Gamma.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA7313B9AB5C00E7235A /* TiBlob+Gamma.h */; };
+		31ECDA7613B9AB5D00E7235A /* TiBlob+Gamma.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA7413B9AB5C00E7235A /* TiBlob+Gamma.m */; };
+		31ECDA7913B9AC2600E7235A /* TiBlob+Noise.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA7713B9AC2400E7235A /* TiBlob+Noise.h */; };
+		31ECDA7A13B9AC2600E7235A /* TiBlob+Noise.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA7813B9AC2500E7235A /* TiBlob+Noise.m */; };
+		31ECDA7D13B9AC3700E7235A /* TiBlob+Clip.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA7B13B9AC3500E7235A /* TiBlob+Clip.h */; };
+		31ECDA7E13B9AC3700E7235A /* TiBlob+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA7C13B9AC3600E7235A /* TiBlob+Clip.m */; };
+		31ECDA8113B9AC4800E7235A /* TiBlob+Channels.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA7F13B9AC4700E7235A /* TiBlob+Channels.h */; };
+		31ECDA8213B9AC4800E7235A /* TiBlob+Channels.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA8013B9AC4800E7235A /* TiBlob+Channels.m */; };
+		31ECDA8513B9AC6E00E7235A /* TiBlob+Curves.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA8313B9AC6C00E7235A /* TiBlob+Curves.h */; };
+		31ECDA8613B9AC6E00E7235A /* TiBlob+Curves.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA8413B9AC6D00E7235A /* TiBlob+Curves.m */; };
+		31ECDA8D13B9D66A00E7235A /* TiBlob+Vignette.h in Headers */ = {isa = PBXBuildFile; fileRef = 31ECDA8B13B9D66600E7235A /* TiBlob+Vignette.h */; };
+		31ECDA8E13B9D66A00E7235A /* TiBlob+Vignette.m in Sources */ = {isa = PBXBuildFile; fileRef = 31ECDA8C13B9D66800E7235A /* TiBlob+Vignette.m */; };
+		AA747D9F0F9514B9006C5449 /* JpMsmcTiimagefilters_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* JpMsmcTiimagefilters_Prefix.pch */; };
+		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24416B8411C4CA280047AFDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D2AAC07D0554694100DB518D;
+			remoteInfo = tiimagefilters;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24DD6CF71134B3F500162E58 /* JpMsmcTiimagefiltersModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpMsmcTiimagefiltersModule.h; path = Classes/JpMsmcTiimagefiltersModule.h; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* JpMsmcTiimagefiltersModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpMsmcTiimagefiltersModule.m; path = Classes/JpMsmcTiimagefiltersModule.m; sourceTree = "<group>"; };
+		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		24DE9E0F11C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JpMsmcTiimagefiltersModuleAssets.h; path = Classes/JpMsmcTiimagefiltersModuleAssets.h; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JpMsmcTiimagefiltersModuleAssets.m; path = Classes/JpMsmcTiimagefiltersModuleAssets.m; sourceTree = "<group>"; };
+		314289B313C4021100E29616 /* TiBlob+Sobel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Sobel.h"; path = "Classes/TiBlob+Sobel.h"; sourceTree = "<group>"; };
+		314289B413C4021300E29616 /* TiBlob+Sobel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Sobel.m"; path = "Classes/TiBlob+Sobel.m"; sourceTree = "<group>"; };
+		3166244C13C30ACC00904169 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Alpha.h"; path = "3rdparty/UIImage+Alpha.h"; sourceTree = "<group>"; };
+		3166244D13C30ACC00904169 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Alpha.m"; path = "3rdparty/UIImage+Alpha.m"; sourceTree = "<group>"; };
+		3166244E13C30ACC00904169 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "3rdparty/UIImage+Resize.h"; sourceTree = "<group>"; };
+		3166244F13C30ACC00904169 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "3rdparty/UIImage+Resize.m"; sourceTree = "<group>"; };
+		3166245013C30ACC00904169 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundedCorner.h"; path = "3rdparty/UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		3166245113C30ACC00904169 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundedCorner.m"; path = "3rdparty/UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		3196DBD213C308B20009CAB9 /* TiBlob+Exposure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Exposure.h"; path = "Classes/TiBlob+Exposure.h"; sourceTree = "<group>"; };
+		3196DBD313C308B20009CAB9 /* TiBlob+Exposure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Exposure.m"; path = "Classes/TiBlob+Exposure.m"; sourceTree = "<group>"; };
+		31C0700C13C320E300319C84 /* libJpMsmcTiimagefilters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJpMsmcTiimagefilters.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		31C0705F13C321F100319C84 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		31ECDA2213B857D300E7235A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		31ECDA3413B86ECE00E7235A /* TiBlob+Template.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Template.h"; path = "Classes/TiBlob+Template.h"; sourceTree = "<group>"; };
+		31ECDA3513B86ECE00E7235A /* TiBlob+Template.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Template.m"; path = "Classes/TiBlob+Template.m"; sourceTree = "<group>"; };
+		31ECDA4413B879CA00E7235A /* TiBlob+Sepia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Sepia.h"; path = "Classes/TiBlob+Sepia.h"; sourceTree = "<group>"; };
+		31ECDA4513B879CA00E7235A /* TiBlob+Sepia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Sepia.m"; path = "Classes/TiBlob+Sepia.m"; sourceTree = "<group>"; };
+		31ECDA4913B8843500E7235A /* TiBlob+Hue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Hue.h"; path = "Classes/TiBlob+Hue.h"; sourceTree = "<group>"; };
+		31ECDA4A13B8843500E7235A /* TiBlob+Hue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Hue.m"; path = "Classes/TiBlob+Hue.m"; sourceTree = "<group>"; };
+		31ECDA4D13B956DB00E7235A /* TiBlob+Greyscale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Greyscale.h"; path = "Classes/TiBlob+Greyscale.h"; sourceTree = "<group>"; };
+		31ECDA4E13B956DB00E7235A /* TiBlob+Greyscale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Greyscale.m"; path = "Classes/TiBlob+Greyscale.m"; sourceTree = "<group>"; };
+		31ECDA5713B9A62000E7235A /* TiBlob+Contrast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Contrast.h"; path = "Classes/TiBlob+Contrast.h"; sourceTree = "<group>"; };
+		31ECDA5813B9A62000E7235A /* TiBlob+Contrast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Contrast.m"; path = "Classes/TiBlob+Contrast.m"; sourceTree = "<group>"; };
+		31ECDA5B13B9AAED00E7235A /* TiBlob+FillColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+FillColor.h"; path = "Classes/TiBlob+FillColor.h"; sourceTree = "<group>"; };
+		31ECDA5C13B9AAED00E7235A /* TiBlob+FillColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+FillColor.m"; path = "Classes/TiBlob+FillColor.m"; sourceTree = "<group>"; };
+		31ECDA5F13B9AAFB00E7235A /* TiBlob+Brightness.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Brightness.h"; path = "Classes/TiBlob+Brightness.h"; sourceTree = "<group>"; };
+		31ECDA6013B9AAFC00E7235A /* TiBlob+Brightness.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Brightness.m"; path = "Classes/TiBlob+Brightness.m"; sourceTree = "<group>"; };
+		31ECDA6313B9AB0D00E7235A /* TiBlob+Saturation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Saturation.h"; path = "Classes/TiBlob+Saturation.h"; sourceTree = "<group>"; };
+		31ECDA6413B9AB0E00E7235A /* TiBlob+Saturation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Saturation.m"; path = "Classes/TiBlob+Saturation.m"; sourceTree = "<group>"; };
+		31ECDA6713B9AB1D00E7235A /* TiBlob+Vibrance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Vibrance.h"; path = "Classes/TiBlob+Vibrance.h"; sourceTree = "<group>"; };
+		31ECDA6813B9AB1D00E7235A /* TiBlob+Vibrance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Vibrance.m"; path = "Classes/TiBlob+Vibrance.m"; sourceTree = "<group>"; };
+		31ECDA6B13B9AB3400E7235A /* TiBlob+Colorize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Colorize.h"; path = "Classes/TiBlob+Colorize.h"; sourceTree = "<group>"; };
+		31ECDA6C13B9AB3400E7235A /* TiBlob+Colorize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Colorize.m"; path = "Classes/TiBlob+Colorize.m"; sourceTree = "<group>"; };
+		31ECDA6F13B9AB4300E7235A /* TiBlob+Invert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Invert.h"; path = "Classes/TiBlob+Invert.h"; sourceTree = "<group>"; };
+		31ECDA7013B9AB4300E7235A /* TiBlob+Invert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Invert.m"; path = "Classes/TiBlob+Invert.m"; sourceTree = "<group>"; };
+		31ECDA7313B9AB5C00E7235A /* TiBlob+Gamma.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Gamma.h"; path = "Classes/TiBlob+Gamma.h"; sourceTree = "<group>"; };
+		31ECDA7413B9AB5C00E7235A /* TiBlob+Gamma.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Gamma.m"; path = "Classes/TiBlob+Gamma.m"; sourceTree = "<group>"; };
+		31ECDA7713B9AC2400E7235A /* TiBlob+Noise.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Noise.h"; path = "Classes/TiBlob+Noise.h"; sourceTree = "<group>"; };
+		31ECDA7813B9AC2500E7235A /* TiBlob+Noise.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Noise.m"; path = "Classes/TiBlob+Noise.m"; sourceTree = "<group>"; };
+		31ECDA7B13B9AC3500E7235A /* TiBlob+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Clip.h"; path = "Classes/TiBlob+Clip.h"; sourceTree = "<group>"; };
+		31ECDA7C13B9AC3600E7235A /* TiBlob+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Clip.m"; path = "Classes/TiBlob+Clip.m"; sourceTree = "<group>"; };
+		31ECDA7F13B9AC4700E7235A /* TiBlob+Channels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Channels.h"; path = "Classes/TiBlob+Channels.h"; sourceTree = "<group>"; };
+		31ECDA8013B9AC4800E7235A /* TiBlob+Channels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Channels.m"; path = "Classes/TiBlob+Channels.m"; sourceTree = "<group>"; };
+		31ECDA8313B9AC6C00E7235A /* TiBlob+Curves.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Curves.h"; path = "Classes/TiBlob+Curves.h"; sourceTree = "<group>"; };
+		31ECDA8413B9AC6D00E7235A /* TiBlob+Curves.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Curves.m"; path = "Classes/TiBlob+Curves.m"; sourceTree = "<group>"; };
+		31ECDA8B13B9D66600E7235A /* TiBlob+Vignette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TiBlob+Vignette.h"; path = "Classes/TiBlob+Vignette.h"; sourceTree = "<group>"; };
+		31ECDA8C13B9D66800E7235A /* TiBlob+Vignette.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TiBlob+Vignette.m"; path = "Classes/TiBlob+Vignette.m"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* JpMsmcTiimagefilters_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JpMsmcTiimagefilters_Prefix.pch; sourceTree = SOURCE_ROOT; };
+		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D2AAC07C0554694100DB518D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31ECDA2313B857D300E7235A /* UIKit.framework in Frameworks */,
+				AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0867D691FE84028FC02AAC07 /* tiimagefilters */ = {
+			isa = PBXGroup;
+			children = (
+				3166244A13C30A5B00904169 /* 3rdparty Sources */,
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				0867D69AFE84028FC02AAC07 /* Frameworks */,
+				314289A513C3226B00E29616 /* Products */,
+			);
+			name = tiimagefilters;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31ECDA2213B857D300E7235A /* UIKit.framework */,
+				AACBBE490F95108600F1A2B1 /* Foundation.framework */,
+				31C0705F13C321F100319C84 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				31ECDA4813B8841700E7235A /* Filters */,
+				31ECDA3413B86ECE00E7235A /* TiBlob+Template.h */,
+				31ECDA3513B86ECE00E7235A /* TiBlob+Template.m */,
+				24DE9E0F11C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* JpMsmcTiimagefiltersModule.h */,
+				24DD6CF81134B3F500162E58 /* JpMsmcTiimagefiltersModule.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		314289A513C3226B00E29616 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				31C0700C13C320E300319C84 /* libJpMsmcTiimagefilters.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3166244A13C30A5B00904169 /* 3rdparty Sources */ = {
+			isa = PBXGroup;
+			children = (
+				3166244C13C30ACC00904169 /* UIImage+Alpha.h */,
+				3166244D13C30ACC00904169 /* UIImage+Alpha.m */,
+				3166244E13C30ACC00904169 /* UIImage+Resize.h */,
+				3166244F13C30ACC00904169 /* UIImage+Resize.m */,
+				3166245013C30ACC00904169 /* UIImage+RoundedCorner.h */,
+				3166245113C30ACC00904169 /* UIImage+RoundedCorner.m */,
+			);
+			name = "3rdparty Sources";
+			sourceTree = "<group>";
+		};
+		31ECDA4813B8841700E7235A /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				3196DBD213C308B20009CAB9 /* TiBlob+Exposure.h */,
+				3196DBD313C308B20009CAB9 /* TiBlob+Exposure.m */,
+				31ECDA8313B9AC6C00E7235A /* TiBlob+Curves.h */,
+				31ECDA8413B9AC6D00E7235A /* TiBlob+Curves.m */,
+				31ECDA7F13B9AC4700E7235A /* TiBlob+Channels.h */,
+				31ECDA8013B9AC4800E7235A /* TiBlob+Channels.m */,
+				31ECDA4D13B956DB00E7235A /* TiBlob+Greyscale.h */,
+				31ECDA4E13B956DB00E7235A /* TiBlob+Greyscale.m */,
+				31ECDA4413B879CA00E7235A /* TiBlob+Sepia.h */,
+				31ECDA4513B879CA00E7235A /* TiBlob+Sepia.m */,
+				31ECDA4913B8843500E7235A /* TiBlob+Hue.h */,
+				31ECDA4A13B8843500E7235A /* TiBlob+Hue.m */,
+				31ECDA5713B9A62000E7235A /* TiBlob+Contrast.h */,
+				31ECDA5813B9A62000E7235A /* TiBlob+Contrast.m */,
+				31ECDA5B13B9AAED00E7235A /* TiBlob+FillColor.h */,
+				31ECDA5C13B9AAED00E7235A /* TiBlob+FillColor.m */,
+				31ECDA5F13B9AAFB00E7235A /* TiBlob+Brightness.h */,
+				31ECDA6013B9AAFC00E7235A /* TiBlob+Brightness.m */,
+				31ECDA6313B9AB0D00E7235A /* TiBlob+Saturation.h */,
+				31ECDA6413B9AB0E00E7235A /* TiBlob+Saturation.m */,
+				31ECDA6713B9AB1D00E7235A /* TiBlob+Vibrance.h */,
+				31ECDA6813B9AB1D00E7235A /* TiBlob+Vibrance.m */,
+				31ECDA6B13B9AB3400E7235A /* TiBlob+Colorize.h */,
+				31ECDA6C13B9AB3400E7235A /* TiBlob+Colorize.m */,
+				31ECDA6F13B9AB4300E7235A /* TiBlob+Invert.h */,
+				31ECDA7013B9AB4300E7235A /* TiBlob+Invert.m */,
+				31ECDA7313B9AB5C00E7235A /* TiBlob+Gamma.h */,
+				31ECDA7413B9AB5C00E7235A /* TiBlob+Gamma.m */,
+				31ECDA7713B9AC2400E7235A /* TiBlob+Noise.h */,
+				31ECDA7813B9AC2500E7235A /* TiBlob+Noise.m */,
+				31ECDA7B13B9AC3500E7235A /* TiBlob+Clip.h */,
+				31ECDA7C13B9AC3600E7235A /* TiBlob+Clip.m */,
+				31ECDA8B13B9D66600E7235A /* TiBlob+Vignette.h */,
+				31ECDA8C13B9D66800E7235A /* TiBlob+Vignette.m */,
+				314289B313C4021100E29616 /* TiBlob+Sobel.h */,
+				314289B413C4021300E29616 /* TiBlob+Sobel.m */,
+			);
+			name = Filters;
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AA747D9E0F9514B9006C5449 /* JpMsmcTiimagefilters_Prefix.pch */,
+				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D2AAC07A0554694100DB518D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA747D9F0F9514B9006C5449 /* JpMsmcTiimagefilters_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* JpMsmcTiimagefiltersModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.h in Headers */,
+				31ECDA3613B86ECE00E7235A /* TiBlob+Template.h in Headers */,
+				31ECDA4613B879CB00E7235A /* TiBlob+Sepia.h in Headers */,
+				31ECDA4B13B8843500E7235A /* TiBlob+Hue.h in Headers */,
+				31ECDA4F13B956DB00E7235A /* TiBlob+Greyscale.h in Headers */,
+				31ECDA5913B9A62100E7235A /* TiBlob+Contrast.h in Headers */,
+				31ECDA5D13B9AAED00E7235A /* TiBlob+FillColor.h in Headers */,
+				31ECDA6113B9AAFC00E7235A /* TiBlob+Brightness.h in Headers */,
+				31ECDA6513B9AB0E00E7235A /* TiBlob+Saturation.h in Headers */,
+				31ECDA6913B9AB1D00E7235A /* TiBlob+Vibrance.h in Headers */,
+				31ECDA6D13B9AB3500E7235A /* TiBlob+Colorize.h in Headers */,
+				31ECDA7113B9AB4300E7235A /* TiBlob+Invert.h in Headers */,
+				31ECDA7513B9AB5D00E7235A /* TiBlob+Gamma.h in Headers */,
+				31ECDA7913B9AC2600E7235A /* TiBlob+Noise.h in Headers */,
+				31ECDA7D13B9AC3700E7235A /* TiBlob+Clip.h in Headers */,
+				31ECDA8113B9AC4800E7235A /* TiBlob+Channels.h in Headers */,
+				31ECDA8513B9AC6E00E7235A /* TiBlob+Curves.h in Headers */,
+				31ECDA8D13B9D66A00E7235A /* TiBlob+Vignette.h in Headers */,
+				3196DBD413C308B20009CAB9 /* TiBlob+Exposure.h in Headers */,
+				3166245213C30ACC00904169 /* UIImage+Alpha.h in Headers */,
+				3166245413C30ACC00904169 /* UIImage+Resize.h in Headers */,
+				3166245613C30ACC00904169 /* UIImage+RoundedCorner.h in Headers */,
+				314289B513C4021400E29616 /* TiBlob+Sobel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D2AAC07D0554694100DB518D /* tiimagefilters */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tiimagefilters" */;
+			buildPhases = (
+				D2AAC07A0554694100DB518D /* Headers */,
+				D2AAC07B0554694100DB518D /* Sources */,
+				D2AAC07C0554694100DB518D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tiimagefilters;
+			productName = tiimagefilters;
+			productReference = 31C0700C13C320E300319C84 /* libJpMsmcTiimagefilters.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tiimagefilters" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* tiimagefilters */;
+			productRefGroup = 0867D691FE84028FC02AAC07 /* tiimagefilters */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D2AAC07D0554694100DB518D /* tiimagefilters */,
+				24416B8111C4CA220047AFDD /* Build & Test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		24416B8011C4CA220047AFDD /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here\n\npython \"${TITANIUM_SDK}/titanium.py\" run --dir=\"${PROJECT_DIR}\"\nexit $?\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D2AAC07B0554694100DB518D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24DD6CFA1134B3F500162E58 /* JpMsmcTiimagefiltersModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* JpMsmcTiimagefiltersModuleAssets.m in Sources */,
+				31ECDA3713B86ECE00E7235A /* TiBlob+Template.m in Sources */,
+				31ECDA4713B879CB00E7235A /* TiBlob+Sepia.m in Sources */,
+				31ECDA4C13B8843500E7235A /* TiBlob+Hue.m in Sources */,
+				31ECDA5013B956DB00E7235A /* TiBlob+Greyscale.m in Sources */,
+				31ECDA5A13B9A62100E7235A /* TiBlob+Contrast.m in Sources */,
+				31ECDA5E13B9AAED00E7235A /* TiBlob+FillColor.m in Sources */,
+				31ECDA6213B9AAFC00E7235A /* TiBlob+Brightness.m in Sources */,
+				31ECDA6613B9AB0E00E7235A /* TiBlob+Saturation.m in Sources */,
+				31ECDA6A13B9AB1D00E7235A /* TiBlob+Vibrance.m in Sources */,
+				31ECDA6E13B9AB3500E7235A /* TiBlob+Colorize.m in Sources */,
+				31ECDA7213B9AB4300E7235A /* TiBlob+Invert.m in Sources */,
+				31ECDA7613B9AB5D00E7235A /* TiBlob+Gamma.m in Sources */,
+				31ECDA7A13B9AC2600E7235A /* TiBlob+Noise.m in Sources */,
+				31ECDA7E13B9AC3700E7235A /* TiBlob+Clip.m in Sources */,
+				31ECDA8213B9AC4800E7235A /* TiBlob+Channels.m in Sources */,
+				31ECDA8613B9AC6E00E7235A /* TiBlob+Curves.m in Sources */,
+				31ECDA8E13B9D66A00E7235A /* TiBlob+Vignette.m in Sources */,
+				3196DBD513C308B20009CAB9 /* TiBlob+Exposure.m in Sources */,
+				3166245313C30ACC00904169 /* UIImage+Alpha.m in Sources */,
+				3166245513C30ACC00904169 /* UIImage+Resize.m in Sources */,
+				3166245713C30ACC00904169 /* UIImage+RoundedCorner.m in Sources */,
+				314289B613C4021400E29616 /* TiBlob+Sobel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D2AAC07D0554694100DB518D /* tiimagefilters */;
+			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB921F08733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				DSTROOT = /tmp/JpMsmcTiimagefilters.dst;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpMsmcTiimagefilters_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(TITANIUM_BASE_SDK)/ASI",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = JpMsmcTiimagefilters;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922008733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				DSTROOT = /tmp/JpMsmcTiimagefilters.dst;
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = JpMsmcTiimagefilters_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK)",
+					"$(TITANIUM_BASE_SDK2)",
+					"$(TITANIUM_BASE_SDK)/ASI",
+				);
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = JpMsmcTiimagefilters;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		1DEB922308733DC00010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1DEB922408733DC00010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_LDFLAGS = "";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		24416B8211C4CA220047AFDD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = "Build & test";
+			};
+			name = Debug;
+		};
+		24416B8311C4CA220047AFDD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24DD6D1B1134B66800162E58 /* titanium.xcconfig */;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				PRODUCT_NAME = "Build & test";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "tiimagefilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB921F08733DC00010E9CD /* Debug */,
+				1DEB922008733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "tiimagefilters" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB922308733DC00010E9CD /* Debug */,
+				1DEB922408733DC00010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24416B8A11C4CA520047AFDD /* Build configuration list for PBXAggregateTarget "Build & Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24416B8211C4CA220047AFDD /* Debug */,
+				24416B8311C4CA220047AFDD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
