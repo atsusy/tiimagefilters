@@ -32,6 +32,10 @@
                 R = *(pixel + argb.r);
                 G = *(pixel + argb.g);
                 B = *(pixel + argb.b);
+                
+                if(*(pixel+argb.a) == 0){
+                    continue;
+                }
          
                 R_ = (R - 128) * adjust_ / 256 + 128;
                 if(R_ > 255) { R_ = 255; };
