@@ -9,6 +9,10 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Contrast.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobContrast
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobContrast
+@end
 
 @implementation TiBlob (TiBlob_Contrast)
 - (id)contrast:(id)arg

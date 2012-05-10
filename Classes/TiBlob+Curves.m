@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Curves.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobCurves
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobCurves
+@end
+
 @implementation TiBlob (TiBlob_Curves)
 - (id)curves:(id)arg
 {

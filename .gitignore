@@ -8,3 +8,5 @@ tmp
 bin
 build
 *.zip
+*~
+.DS_Store

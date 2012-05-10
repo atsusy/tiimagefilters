@@ -1,5 +1,5 @@
 var window = Titanium.UI.createWindow();
-var load = require('imagefilter').load;
+var imagefilter = require('imagefilter');
 
 var filterDescs = { 
 	Exposure:[
@@ -148,7 +148,7 @@ var filterDescs = {
 	]
 };
 var filterViews = [];
-var targetImage = load('lena_std.jpg').imageAsResized(600, 600).imageWithRoundedCorner(16);
+var targetImage = imagefilter.load('example.jpg').imageAsResized(600, 600).imageWithRoundedCorner(16);
 
 function buildFilterOperator(desc){
 	var view = Titanium.UI.createView({
@@ -291,7 +291,7 @@ var filterTitle = Titanium.UI.createLabel({
 	textAlign:'center',
 	color:'white',
 	height:24,
-	bottom:60,
+	bottom:70,
 });
 
 var help = Titanium.UI.createLabel({
@@ -304,7 +304,10 @@ var help = Titanium.UI.createLabel({
 });
 
 var picture = Titanium.UI.createButton({
-	image:'image2.png'
+	title:'Open Photo Gallery',
+	width:'80%',
+	height:32,
+	bottom:16,
 });
 
 picture.addEventListener('click', function(e){
@@ -318,7 +321,7 @@ picture.addEventListener('click', function(e){
 		if(e.index == 0){
 			Titanium.Media.showCamera({
 				success: function(e) {
-					targetImage = load(e.media).imageAsResized(600, 600).imageWithRoundedCorner(16);
+					targetImage = imagefilter.load(e.media).imageAsResized(600, 600).imageWithRoundedCorner(16);
 					for(var i = 0; i < filterViews.length; i++){
 						var filterView = filterViews[i];
 						filterView.image.image = targetImage;
@@ -331,7 +334,7 @@ picture.addEventListener('click', function(e){
 		if(e.index == 1){
 			Titanium.Media.openPhotoGallery({
 				success: function(e) {
-					targetImage = load(e.media).imageAsResized(600, 600).imageWithRoundedCorner(16);
+					targetImage = imagefilter.load(e.media).imageAsResized(600, 600).imageWithRoundedCorner(16);
 					for(var i = 0; i < filterViews.length; i++){
 						var filterView = filterViews[i];
 						filterView.image.image = targetImage;
@@ -343,12 +346,6 @@ picture.addEventListener('click', function(e){
 		}
 	});
 	
-});
-
-var toolbar = Titanium.UI.createToolbar({
-	items:[picture],
-	barColor:'#333333',
-	bottom:0
 });
 
 scrollView.addEventListener('scroll', function(e){
@@ -365,7 +362,7 @@ scrollView.addEventListener('scroll', function(e){
 window.add(scrollView);
 window.add(filterTitle)
 window.add(help);
-window.add(toolbar);
+window.add(picture);
 
 window.open();
 

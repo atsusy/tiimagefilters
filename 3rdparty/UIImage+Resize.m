@@ -7,6 +7,11 @@
 #import "UIImage+RoundedCorner.h"
 #import "UIImage+Alpha.h"
 
+@interface JpMsmcTiimagefiltersModuleUIImageResize
+@end
+@implementation JpMsmcTiimagefiltersModuleUIImageResize
+@end
+
 // Private helper methods
 @interface UIImage ()
 - (UIImage *)resizedImage:(CGSize)newSize

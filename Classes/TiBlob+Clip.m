@@ -9,6 +9,10 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Clip.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobClip
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobClip
+@end
 
 @implementation TiBlob (TiBlob_Clip)
 - (id)clip:(id)arg

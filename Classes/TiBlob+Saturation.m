@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Saturation.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobSaturation
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobSaturation
+@end
+
 @implementation TiBlob (TiBlob_Saturation)
 - (id)saturation:(id)arg
 {

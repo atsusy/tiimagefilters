@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Greyscale.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobGreyscale
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobGreyscale
+@end
+
 @implementation TiBlob (TiBlob_Greyscale)
 
 - (id)greyscale:(id)arg

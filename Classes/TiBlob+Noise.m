@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Noise.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobNoise
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobNoise
+@end
+
 #define LIMIT(v, min, max) MAX(MIN(max, v), min)
 
 @implementation TiBlob (TiBlob_Noise)

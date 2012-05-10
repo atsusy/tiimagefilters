@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Invert.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobInvert
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobInvert
+@end
+
 @implementation TiBlob (TiBlob_Invert)
 - (id)invert:(id)arg
 {

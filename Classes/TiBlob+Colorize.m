@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Colorize.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobColorize
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobColorize
+@end
+
 @implementation TiBlob (TiBlob_Colorize)
 - (id)colorize:(id)arg
 {

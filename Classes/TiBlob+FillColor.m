@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+FillColor.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobFillColor
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobFillColor
+@end
+
 @implementation TiBlob (TiBlob_FillColor)
 - (id)fillColor:(id)arg
 {

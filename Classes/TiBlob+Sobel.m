@@ -6,9 +6,13 @@
 //  Copyright 2011 MARSHMALLOW MACHINE. All rights reserved.
 //
 
-#import "TiBlob+Template.m"
+#import "TiBlob+Template.h"
 #import "TiBlob+Sobel.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobSobel
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobSobel
+@end
 
 @implementation TiBlob (TiBlob_Sobel)
 - (id)sobel:(id)arg

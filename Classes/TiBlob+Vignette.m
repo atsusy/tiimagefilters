@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Vignette.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobVignette
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobVignette
+@end
+
 @implementation TiBlob (TiBlob_Vignette)
 - (id)vignette:(id)arg
 {

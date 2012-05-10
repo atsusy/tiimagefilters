@@ -12,6 +12,11 @@
 #import <mach/mach_host.h>
 #import <mach/mach_time.h> 
 
+@interface JpMsmcTiimagefiltersModuleTiBlobTemplate
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobTemplate
+@end
+
 @implementation TiBlob (TiBlob_Template)
 
 - (void)bezier:(int32_t *)start

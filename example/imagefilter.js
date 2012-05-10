@@ -1,6 +1,6 @@
 (function(){
 	var module = require('jp.msmc.tiimagefilters');
-	exports.load = function(arg){
+    exports.load = function(arg){
 		var image = module.load(arg);
 		
 		image.sharpen = function(amt){

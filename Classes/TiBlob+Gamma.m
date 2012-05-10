@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Gamma.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobGamma
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobGamma
+@end
+
 @implementation TiBlob (TiBlob_Gamma)
 - (id)gamma:(id)arg
 {

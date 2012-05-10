@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Brightness.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobBrightness
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobBrightness
+@end
+
 @implementation TiBlob (TiBlob_Brightness)
 - (id)brightness:(id)arg
 {

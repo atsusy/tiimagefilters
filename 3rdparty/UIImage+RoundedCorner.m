@@ -6,6 +6,11 @@
 #import "UIImage+RoundedCorner.h"
 #import "UIImage+Alpha.h"
 
+@interface JpMsmcTiimagefiltersModuleUIImageRoundedCorner
+@end
+@implementation JpMsmcTiimagefiltersModuleUIImageRoundedCorner
+@end
+
 // Private helper methods
 @interface UIImage ()
 - (void)addRoundedRectToPath:(CGRect)rect context:(CGContextRef)context ovalWidth:(CGFloat)ovalWidth ovalHeight:(CGFloat)ovalHeight;

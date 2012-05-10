@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Vibrance.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobVibrance
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobVibrance
+@end
+
 @implementation TiBlob (TiBlob_Vibrance)
 - (id)vibrance:(id)arg
 {

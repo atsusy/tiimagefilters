@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Channels.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobChannels
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobChannels
+@end
+
 
 @implementation TiBlob (TiBlob_Channels)
 - (id)channels:(id)arg

@@ -9,6 +9,10 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Sepia.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobSepia
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobSepia
+@end
 
 @implementation TiBlob (TiBlob_Sepia)
 - (id)sepia:(id)arg

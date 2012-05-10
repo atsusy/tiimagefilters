@@ -5,6 +5,11 @@
 
 #import "UIImage+Alpha.h"
 
+@interface JpMsmcTiimagefiltersModuleUIImageAlpha
+@end
+@implementation JpMsmcTiimagefiltersModuleUIImageAlpha
+@end
+
 // Private helper methods
 @interface UIImage ()
 - (CGImageRef)newBorderMask:(NSUInteger)borderSize size:(CGSize)size;

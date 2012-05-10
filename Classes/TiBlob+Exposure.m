@@ -9,6 +9,11 @@
 #import "TiBlob+Template.h"
 #import "TiBlob+Exposure.h"
 
+@interface JpMsmcTiimagefiltersModuleTiBlobExposure
+@end
+@implementation JpMsmcTiimagefiltersModuleTiBlobExposure
+@end
+
 @implementation TiBlob (TiBlob_Exposure)
 - (id)exposure:(id)arg
 {
